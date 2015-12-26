@@ -1,0 +1,32 @@
+.icon-cust
+{
+	margin-right: 10px;
+}
+
+.product img
+{
+	display: inline;
+}
+
+.product h4 
+{
+	display: inline;
+}
+
+
+.service
+{
+	margin-bottom: 25px;
+}
+.service img
+{
+	display: inline;
+	margin-right: 10px;
+}
+
+.service .desc
+{
+	display: inline;
+	vertical-align: middle;
+}
+
