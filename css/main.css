@@ -29,9 +29,12 @@ html body h1 h2 h3 h4 h5 h6 div p address
     font-family: LatoWeb;
 }
 
+
+
+
 .banner-unit
 {
-	height: 400px;	
+	height: 300px;	
 }
 
 .logo
@@ -40,9 +43,15 @@ html body h1 h2 h3 h4 h5 h6 div p address
 	vertical-align: middle;
 }
 
+
 .icon-cust
 {
 	margin-right: 10px;
+}
+
+.product
+{
+	margin-bottom: 50px;
 }
 
 .product img
@@ -96,24 +105,38 @@ html body h1 h2 h3 h4 h5 h6 div p address
 {
 	width: 300px;
 	vertical-align: middle;
-
-
 }
 
+.address
+{
+	font-size: 23px;
+	line-height: 1.5em;
+	margin-bottom: 25px;
+}
+
+.address a:hover
+{
+	color: #2E3030;
+}
+
+.fix-logo
+{
+	height: 50px;
+	margin-top: 10px;
+}
+
+/* Banner Responsive */
 @media screen and (max-width: 775px) {
 
     .fix-img
     {
     	width: 200px;
-
     }
 
-
-    .navbar
+    .head-nav
     {
-    	height: 80px;
+    	height: 80px !important;
     	line-height:60px;
-    	height:60px;
     	background-color:rgba(255,87,34,1) !important;
     }
 
@@ -123,6 +146,7 @@ html body h1 h2 h3 h4 h5 h6 div p address
 	}
 }
 
+/* Description text center align */
 @media screen and (max-width: 767px) {
     .desc
     {
