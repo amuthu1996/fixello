@@ -40,10 +40,37 @@ html body h1 h2 h3 h4 h5 h6 div p address
 .logo
 {
 	margin-left: 10px; 
+	line-height: 0px;
 	vertical-align: middle;
 }
 
+.head-nav
+{
+   	height: 100px;
+    line-height:60px;
 
+}
+
+.nav > li > a
+{
+	color: white !important;
+	z-index: 2000;
+}
+
+.course
+{
+	height:63px;
+}
+
+.course2
+{
+	vertical-align: middle;
+}
+
+.course3
+{
+	margin-top: 10px;
+}
 .icon-cust
 {
 	margin-right: 10px;
@@ -79,6 +106,7 @@ html body h1 h2 h3 h4 h5 h6 div p address
 {
 	display: inline;
 	vertical-align: middle;
+	font-weight: none;
 }
 
 .works
@@ -135,11 +163,15 @@ html body h1 h2 h3 h4 h5 h6 div p address
 
     .head-nav
     {
-    	height: 80px !important;
+    	height: 60px;
     	line-height:60px;
     	background-color:rgba(255,87,34,1) !important;
     }
 
+    .fix-logo
+	{
+		margin-top: 10px;
+	}
     .banner-unit
 	{
 		height: 200px;	
